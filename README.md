@@ -92,7 +92,7 @@ app/src/main/
 
 ## 许可证
 
-MIT License
+[GPL v3](LICENSE) - 使用本项目的代码必须也开源
 
 ## 致谢
 
