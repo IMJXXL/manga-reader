@@ -1,6 +1,6 @@
 # 漫读 MangaReader
 
-Android 漫画/小说阅读器，基于 Kotlin + Jetpack Compose + Material3。
+Android 漫画阅读器，基于 Kotlin + Jetpack Compose + Material3。支持 PDF、ZIP/CBZ、RAR/CBR、MOBI、EPUB、AZW3 等漫画格式。
 
 ## 功能特性
 
@@ -96,8 +96,13 @@ MIT License
 
 ## 致谢
 
+- [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi) - 漫画阅读器的灵感来源，SubsamplingScaleImageView 组件
 - [PDFium](https://pdfium.googlesource.com/pdfium/) - PDF 渲染引擎
 - [stb_image](https://github.com/nothings/stb) - 图片解码
-- [JunRAR](https://github.com/junrar/junrar) - RAR 解压
+- [JunRAR](https://github.com/junrar/junrar) - RAR/CBR 解压
 - [libarchive](https://github.com/libarchive/libarchive) - 压缩包处理
+- [libmobi](https://github.com/nicklockwood/libmobi) - MOBI/AZW3 格式解析
 - [Coil](https://coil-kt.github.io/coil/) - 图片加载
+- [Apache Commons Compress](https://commons.apache.org/proper/commons-compress/) - ZIP/7Z 处理
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) - UI 框架
+- [Room](https://developer.android.com/training/data-storage/room) - 本地数据库
